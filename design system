@@ -1,0 +1,135 @@
+{
+  "brand": {
+    "name": "Vegetables — Healthy Life",
+    "layoutReference": "bobandjims.com.au (structure only, content original)"
+  },
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Pacifico",
+      "role": "heading"
+    },
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#7DC242",
+    "primaryDark": "#1E6B2F",
+    "secondary": "#F7941D",
+    "accent": "#1B7A2E",
+    "highlight": "#E52D27",
+    "background": "#FDFDFB",
+    "surfaceTint": "#EAF6E3",
+    "textPrimary": "#23301F",
+    "textHeading": "#166534",
+    "link": "#1B7A2E"
+  },
+  "colorUsage": {
+    "primary": "Leaf green — section bands, footer, brand moments (maps to old #B4DEB0 pastel band usage)",
+    "primaryDark": "Buttons, emphasis",
+    "secondary": "Carrot orange — secondary highlights, hover states, icons",
+    "accent": "Links, small icons, active states",
+    "highlight": "Tomato red — use sparingly: price tags, sale badges, 'favourite of the week' callouts only",
+    "background": "Bright near-white page background (per brief: bright site, color applied selectively)",
+    "surfaceTint": "Input fields, soft cards, newsletter strip"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Arial",
+      "heading": "Pacifico"
+    },
+    "fontStacks": {
+      "heading": [
+        "Pacifico",
+        "cursive"
+      ],
+      "body": [
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Helvetica",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "40px",
+      "h2": "24px",
+      "body": "18px"
+    },
+    "colors": {
+      "headings": "#166534",
+      "body": "#23301F"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "input": {
+      "background": "#EAF6E3",
+      "textColor": "#23301F",
+      "borderColor": "#7DC242",
+      "borderRadius": "6px",
+      "borderRadiusCorners": {
+        "topLeft": "6px",
+        "topRight": "6px",
+        "bottomRight": "6px",
+        "bottomLeft": "6px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#1E6B2F",
+      "textColor": "#FFFFFF",
+      "hoverBackground": "#F7941D",
+      "borderRadius": "7px",
+      "borderRadiusCorners": {
+        "topLeft": "7px",
+        "topRight": "7px",
+        "bottomRight": "7px",
+        "bottomLeft": "7px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#FDFDFB",
+      "textColor": "#1E6B2F",
+      "borderColor": "#1E6B2F",
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    },
+    "badge": {
+      "background": "#E52D27",
+      "textColor": "#FFFFFF",
+      "usage": "Sale / price / featured-item callouts only"
+    }
+  },
+  "images": {
+    "logo": "assets/vegetables-logo.png",
+    "favicon": "assets/favicon.png",
+    "ogImage": "assets/vegetables-logo.png",
+    "logoHref": "/",
+    "logoAlt": "Vegetables — Healthy Life"
+  },
+  "personality": {
+    "tone": "playful",
+    "energy": "medium",
+    "targetAudience": "health-conscious general consumers"
+  },
+  "designSystem": {
+    "framework": "custom",
+    "componentLibrary": ""
+  }
+}
